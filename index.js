@@ -10,7 +10,7 @@ function displayOnClick(element) {
         if (input == 'AC') {
             inputs_html.innerHTML = '';
         }else if (input == 'Del') {
-            inputs_html.innerHTML[0] = '';
+            inputs_html.innerHTML[-1] = '';
         }else{
             inputs_html.innerHTML += input;
         }
