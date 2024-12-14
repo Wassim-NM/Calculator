@@ -10,13 +10,15 @@
     width: 100vw;
     height: 100vh;
     border: none;
-    background-color: aqua;
+    background-color: rgb(25, 200, 200);
 }
 
 .calculator {
+    overflow: hidden;
     display: block;
     width: 370px;
     height: 80%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
 }
 
 .solution {
